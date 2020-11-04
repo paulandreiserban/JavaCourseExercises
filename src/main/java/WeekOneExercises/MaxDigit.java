@@ -4,12 +4,6 @@ import java.util.Collections;
 import java.util.List;
 public class MaxDigit
 {
-	Integer number;
-
-	MaxDigit(int number)
-	{
-		this.number =  number;
-	}
 
 	public void maxDigitOfNumber(int number)
 	{

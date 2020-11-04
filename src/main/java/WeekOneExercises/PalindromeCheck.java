@@ -1,13 +1,7 @@
 package WeekOneExercises;
 public class PalindromeCheck
 {
-	String word;
-
-	PalindromeCheck(String word){
-		this.word = word;
-	}
-
-	public boolean isPalindrome (String word)
+	private static boolean isPalindrome (String word)
 	{
 		for(int i=0;  i <= (word.length() / 2); i = i +1)
 		{
@@ -21,6 +15,18 @@ public class PalindromeCheck
 			}
 		}
 		return  true;
+	}
+
+	public static void checkPalindrome(String word)
+	{
+		if (isPalindrome(word))
+		{
+			System.out.println(word + " is a palindrome");
+		}
+		else
+		{
+			System.out.println(word + " is not a palindrome");
+		}
 	}
 }
 

@@ -5,14 +5,8 @@ import java.util.List;
 import java.util.Random;
 public class LowestNumber
 {
-	Integer numberOfElements;
 
-	LowestNumber(int numberOfElements)
-	{
-		this.numberOfElements = numberOfElements;
-	}
-
-	public void lowestElementOfAnArray(int numberOfElements)
+	public static void lowestElementOfRandomArray(int numberOfElements)
 	{
 		Random element = new Random();
 		List array = new ArrayList(numberOfElements);

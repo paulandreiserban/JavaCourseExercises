@@ -1,13 +1,7 @@
 package WeekOneExercises;
 public class PrimeList
 {
-	Integer maxNumber;
-
-	PrimeList(Integer maxNumber)
-	{
-		this.maxNumber = maxNumber;
-	}
-	private boolean isPrime(int number)
+	private static boolean isPrime(int number)
 	{
 		for(int i = 2; i <= number/2; ++i)
 		{
@@ -19,9 +13,9 @@ public class PrimeList
 		return true;
 	}
 
-	public void listPrimeNumber(int maxNumber)
+	public static void listPrimeNumberLowerThan(int maxNumber)
 	{
-		System.out.print("All the prime numbers smaller then " + maxNumber + " are: ");
+		System.out.print("All the prime numbers smaller than " + maxNumber + " are: ");
 		for(int i = 1; i <= maxNumber; i++)
 		{
 			if(isPrime(i))
