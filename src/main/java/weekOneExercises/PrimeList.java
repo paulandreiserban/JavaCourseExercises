@@ -1,4 +1,4 @@
-package WeekOneExercises;
+package weekOneExercises;
 public class PrimeList
 {
 	private static boolean isPrime(int number)

@@ -1,4 +1,4 @@
-package WeekOneExercises;
+package weekOneExercises;
 public class PalindromeCheck
 {
 	private static boolean isPalindrome (String word)
